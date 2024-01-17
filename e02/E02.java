@@ -11,6 +11,6 @@ class E02 {
         System.out.printf("%d\r\n", a + b);
         System.out.printf("%d\r\n", a - b);
         System.out.printf("%d\r\n", a * b);
-        System.out.printf("%d\r\n", a / b);
+        System.out.printf("%d", a / b);
     }
 }
