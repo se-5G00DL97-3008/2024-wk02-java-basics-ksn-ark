@@ -11,9 +11,9 @@ class E08 {
                 break;
             }
             if (a % 2 == 0) {
-                System.out.println("Even number");
+                System.out.println("Number is odd");
             } else {
-                System.out.println("Odd number");
+                System.out.println("Number is even");
             }
         }
         scanner.close();
