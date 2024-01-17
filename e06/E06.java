@@ -7,7 +7,7 @@ class E06 {
         int a = scanner.nextInt();
         scanner.close();
         for (int i = 0; i < 11; i++) {
-            System.out.printf("%d x %d = %d%n", a, i, a * i);
+            System.out.printf("%d x %d = %d%n", i, a, a * i);
         }
     }
 }
