@@ -13,8 +13,8 @@ class E02 {
         int product = a * b;
         int divide = a / b;
         System.out.println(a + " + " + b + " = " + plus);
-        System.out.println(a + " + " + b + " = " + minus);
-        System.out.println(a + " + " + b + " = " + product);
-        System.out.println(a + " + " + b + " = " + divide);
+        System.out.println(a + " - " + b + " = " + minus);
+        System.out.println(a + " x " + b + " = " + product);
+        System.out.println(a + " / " + b + " = " + divide);
     }
 }
