@@ -14,7 +14,7 @@ class E09 {
             }
             a += b;
             i += 1;
-            System.out.println("Average: " + a / i);
+            System.out.printf("Average: %f", a / i);
         }
         scanner.close();
     }
