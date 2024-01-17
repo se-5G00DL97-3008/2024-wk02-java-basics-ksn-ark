@@ -15,7 +15,7 @@ class E09 {
             a += b;
             i += 1;
             float average = a / i;
-            System.out.printf("Average: %f", average);
+            System.out.println("Average: " + average);
         }
         scanner.close();
     }
