@@ -8,9 +8,13 @@ class E02 {
         System.out.println("Give a number:");
         int b = scanner.nextInt();
         scanner.close();
-        System.out.printf("%d + %d = %d\r\n", a, b, a + b);
-        System.out.printf("%d - %d = %d\r\n", a, b, a - b);
-        System.out.printf("%d x %d = %d\r\n", a, b, a * b);
-        System.out.printf("%d / %d = %d\r\n", a, b, a / b);
+        int plus = a + b;
+        int minus = a - b;
+        int product = a * b;
+        int divide = a / b;
+        System.out.println(a + " + " + b + " = " + plus);
+        System.out.println(a + " + " + b + " = " + minus);
+        System.out.println(a + " + " + b + " = " + product);
+        System.out.println(a + " + " + b + " = " + divide);
     }
 }
