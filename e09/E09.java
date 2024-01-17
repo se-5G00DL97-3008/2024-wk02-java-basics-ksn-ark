@@ -4,17 +4,18 @@ class E09 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int i = 0;
-        int a = 0;
+        float a = 0f;
         while (true) {
 
             System.out.println("Give a test score (-1 to quit):");
-            int b = scanner.nextInt();
+            int b = scanner.nextFloat();
             if (b == -1) {
                 break;
             }
             a += b;
             i += 1;
-            System.out.printf("Average: %f", Float.parseFloat(a / i));
+            float average = a / i;
+            System.out.printf("Average: %f", average);
         }
         scanner.close();
     }
