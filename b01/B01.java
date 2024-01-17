@@ -8,8 +8,7 @@ class B01 {
         long population = 7000000000L;
         byte num = 100;
         double pi = 3.13457599923384753929348;
-        System.out.printf("\r\n%d\r\n%f\r\n%b\r\n%c\r\n%d\r\n%d\r\n%d\r\n%d\r\n%f", x, y, flag, letter, year,
-                population,
+        System.out.printf("%d\r\n%f\r\n%b\r\n%c\r\n%d\r\n%d\r\n%d\r\n%d\r\n%f", x, y, flag, letter, year, population,
                 num, pi);
     }
 }
