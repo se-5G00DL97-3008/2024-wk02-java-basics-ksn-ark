@@ -10,7 +10,7 @@ class E02 {
         scanner.close();
         System.out.printf("%d + %d = %d\r\n", a, b, a + b);
         System.out.printf("%d - %d = %d\r\n", a, b, a - b);
-        System.out.printf("%d * %d = %d\r\n", a, b, a * b);
+        System.out.printf("%d x %d = %d\r\n", a, b, a * b);
         System.out.printf("%d / %d = %d", a, b, a / b);
     }
 }
