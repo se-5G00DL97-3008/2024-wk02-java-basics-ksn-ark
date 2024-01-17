@@ -7,14 +7,11 @@ class E02 {
         int a = scanner.nextInt();
         System.out.println("Give a number:");
         int b = scanner.nextInt();
+        System.out.printf("%d + %d = %d%n", a, b, a + b);
+        System.out.printf("%d - %d = %d%n", a, b, a - b);
+        System.out.printf("%d x %d = %d%n", a, b, a * b);
+        System.out.printf("%d / %d = %d%n", a, b, a / b);
         scanner.close();
-        int plus = a + b;
-        int minus = a - b;
-        int product = a * b;
-        int divide = a / b;
-        System.out.println(a + " + " + b + " = " + plus);
-        System.out.println(a + " - " + b + " = " + minus);
-        System.out.println(a + " x " + b + " = " + product);
-        System.out.println(a + " / " + b + " = " + divide);
     }
+
 }
