@@ -5,12 +5,14 @@ class E02 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Give a number:");
         int a = scanner.nextInt();
+        System.out.println(a);
         System.out.println("Give another number:");
         int b = scanner.nextInt();
+        System.out.println(b);
         scanner.close();
-        System.out.printf("%d\r\n", a + b);
-        System.out.printf("%d\r\n", a - b);
-        System.out.printf("%d\r\n", a * b);
-        System.out.printf("%d", a / b);
+        System.out.printf("%d + %d = %d\r\n", a, b, a + b);
+        System.out.printf("%d - %d = %d\r\n", a, b, a - b);
+        System.out.printf("%d * %d = %d\r\n", a, b, a * b);
+        System.out.printf("%d / %d = %d", a, b, a / b);
     }
 }
