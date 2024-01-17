@@ -9,8 +9,8 @@ class E02 {
         int b = scanner.nextInt();
         scanner.close();
         System.out.printf("%d\r\n", a + b);
-        System.out.printf("%d\r\n", a + b);
-        System.out.printf("%d\r\n", a + b);
-        System.out.printf("%d\r\n", a + b);
+        System.out.printf("%d\r\n", a - b);
+        System.out.printf("%d\r\n", a * b);
+        System.out.printf("%d\r\n", a / b);
     }
 }
