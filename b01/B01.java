@@ -7,7 +7,7 @@ class B01 {
         short year = 2022;
         long population = 7000000000L;
         byte num = 100;
-        double pi = 3.13457599923384753929348;
+        double pi = 3.1345759992338476;
         System.out.printf("%d\r\n%f\r\n%b\r\n%c\r\n%d\r\n%d\r\n%d\r\n%d\r\n%f", x, y, flag, letter, year, population,
                 num, pi);
     }
