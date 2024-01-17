@@ -8,13 +8,7 @@ class B01 {
         long population = 7000000000l;
         byte num = 100;
         double pi = 3.13457599923384753929348;
-        System.out.println(x);
-        System.out.println(y);
-        System.out.println(flag);
-        System.out.println(letter);
-        System.out.println(year);
-        System.out.println(population);
-        System.out.println(num);
-        System.out.println(pi);
+        System.out.print(x + "\r\n" + y + "\r\n" + flag + "\r\n" + letter + "\r\n" + year + "\r\n" + population
+                + "\r\n" + num + "\r\n" + pi);
     }
 }
