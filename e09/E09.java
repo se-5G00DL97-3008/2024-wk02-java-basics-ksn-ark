@@ -8,7 +8,7 @@ class E09 {
         while (true) {
 
             System.out.println("Give a test score (-1 to quit):");
-            int b = scanner.nextFloat();
+            float b = scanner.nextFloat();
             if (b == -1) {
                 break;
             }
